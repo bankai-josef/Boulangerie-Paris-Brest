@@ -116,7 +116,7 @@
 }
 
 .icon {
-  color: #00ff55;
+  color: #ff00ae;
   font-size: 30px;
   cursor: pointer;
   display: none;
@@ -160,7 +160,7 @@
 }
 
 .posterName {
-  color: #00ff55;;
+  color: #cc00ff;;
   font-family: cursive;
 }
 
@@ -727,7 +727,7 @@ h2{
     font-family: "Poppins", cursive;
 } */
 
-@media (max-width: 1269px) {
+@media (max-width: 1000px) {
   .bg-img {
     height: 140vh;
   }
@@ -747,7 +747,7 @@ h2{
   }
 
   .bg-img {
-    height: 120vh;
+    height: 100vh;
   }
 }
 
@@ -812,7 +812,7 @@ h2{
   }
 }
 
-@media (max-width: 868px) {
+@media (max-width: 600px) {
   .icon {
     display: block;
   }
@@ -870,7 +870,7 @@ h2{
   }
 
   .img-field img {
-    height: 250px !important;
+    height: 150px !important;
   }
 
   .sales {
@@ -902,7 +902,7 @@ h2{
 
 @media (max-width: 380px) {
   .navbar .logo a {
-    font-size: 27px;
+    font-size: 20px;
   }
 
   .bg-img {
