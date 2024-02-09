@@ -9,6 +9,7 @@
   scroll-behavior: smooth;
 }
 
+
 /* scrolling css */
 ::-webkit-scrollbar {
   width: 10px;
@@ -749,28 +750,6 @@ h2{
     height: 120vh;
   }
 }
-/* Style de base pour la vidéo */
-#myVideo {
-  width: 100%; /* Par défaut, la vidéo occupe toute la largeur du conteneur */
-  height: auto; /* La hauteur est automatiquement ajustée pour conserver le rapport hauteur/largeur */
-}
-
-/* Media Query pour les écrans de taille moyenne à grande */
-@media screen and (min-width: 768px) {
-  #myVideo {
-    width: 50%; /* Réduit la largeur de la vidéo à 50% lorsque la largeur de l'écran est supérieure ou égale à 768 pixels */
-    height: auto; /* Hauteur ajustée automatiquement */
-  }
-}
-
-/* Media Query pour les petits écrans */
-@media screen and (max-width: 767px) {
-  #myVideo {
-    width: 100%; /* La vidéo occupe toute la largeur sur les petits écrans */
-    height: auto; /* Hauteur ajustée automatiquement */
-  }
-}
-
 
 @media (max-width: 1100px) {
   .content {
@@ -898,6 +877,28 @@ h2{
     height: 100vh;
   }
 }
+/* Style de base pour la vidéo */
+#myVideo {
+  width: 100%; /* Par défaut, la vidéo occupe toute la largeur du conteneur */
+  height: auto; /* La hauteur est automatiquement ajustée pour conserver le rapport hauteur/largeur */
+}
+
+/* Media Query pour les écrans de taille moyenne à grande */
+@media screen and (min-width: 768px) {
+  #myVideo {
+    width: 50%; /* Réduit la largeur de la vidéo à 50% lorsque la largeur de l'écran est supérieure ou égale à 768 pixels */
+    height: auto; /* Hauteur ajustée automatiquement */
+  }
+}
+
+/* Media Query pour les petits écrans */
+@media screen and (max-width: 767px) {
+  #myVideo {
+    width: 100%; /* La vidéo occupe toute la largeur sur les petits écrans */
+    height: auto; /* Hauteur ajustée automatiquement */
+  }
+}
+
 
 @media (max-width: 380px) {
   .navbar .logo a {
