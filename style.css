@@ -9,10 +9,7 @@
   scroll-behavior: smooth;
 }
 
-.imgv {
-  width: 220%;
-  object-fit: cover;
-}
+
 /* scrolling css */
 ::-webkit-scrollbar {
   width: 10px;
@@ -721,18 +718,6 @@ h2{
 
 
 @media (max-width: 600px) {
-  body {
-    width: 100vh;
-  }
-  
-#gallery {
-  position: relative;
-  bottom: 100px;
-}
-
-  .bg-img {
-    width: 100vh;
-  }
   .icon {
     display: block;
   }
@@ -745,12 +730,6 @@ h2{
     display: none;
   }
 
-  .navbar {
-    width: 100vh;
-  }
-  .imgv {
-    width: 100vh;
-  }
   .navbar .menu-list {
     position: fixed;
     height: 100vh;
