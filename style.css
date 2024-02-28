@@ -104,6 +104,8 @@
 
 /* hero section start */
 .bg-img {
+  display: flex;
+  flex-direction: column;
   background: url("./images/bg.PNG");
   background-position: center;
   background-repeat: no-repeat;
@@ -295,6 +297,8 @@
 /* Menu section stats  */
 .startMenu {
   margin-top: 25vh;
+  position: relative;
+  top: 420px;
 }
 
 .startMenu h1 {
@@ -366,6 +370,11 @@
 /* Menu section Ends  */
 
 /* gallery section starts */
+#gallery {
+  position: relative;
+  top: 420px;
+}
+
 .galleryStart {
   margin-top: 25vh;
 }
@@ -701,7 +710,10 @@ h2{
     font-family: "Poppins", cursive;
 } */
 
-
+#contact {
+  position: relative;
+  top: 420px;
+}
 
 
 
