@@ -27,33 +27,7 @@
   background: rgba(0, 255, 17, 0.39);
 }
 
-/* what's app section start */
-.whatsApp {
-  top: 80%;
-  left: 0%;
-  position: fixed;
-  background-color: white;
-  padding: 15px;
-  border-radius: 5px;
-  z-index: 9999;
-  cursor: pointer;
-  /* width: 30px;
-  height: 30px; */
-}
-
-
-.whatsApp a {
-  font-size: 36px;
-  color: green;
-}
-
-.whatsApp:hover {
-  background: green;
-}
-
-.whatsApp:hover a {
-  color: white;
-}
+/* what's app section start */                                                                      
 
 /* what's app section start */
 
@@ -727,90 +701,9 @@ h2{
     font-family: "Poppins", cursive;
 } */
 
-@media (max-width: 1000px) {
-  .bg-img {
-    height: 140vh;
-  }
 
-  .poster {
-    font-size: 60px;
-  }
 
-  .photo-frame {
-    margin-top: 150px;
-  }
-}
 
-@media (max-width: 1230px) {
-  .content {
-    padding: 0 60px;
-  }
-
-  .bg-img {
-    height: 100vh;
-  }
-}
-
-@media (max-width: 1100px) {
-  .content {
-    padding: 0 40px;
-  }
-
-  .bg-img {
-    height: 120vh;
-  }
-
-  .poster {
-    font-size: 45px;
-  }
-
-  .img-field img {
-    
-    height: 320px !important;
-  }
-
-  .sales {
-    height: 75vh;
-  }
-
-  /* contact  */
-  .row {
-    /* background: red; */
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .row form {
-    margin-bottom: 10px;
-  }
-}
-
-@media (max-width: 900px) {
-  .content {
-    padding: 0 30px;
-  }
-
-  .bg-img {
-    height: 110vh;
-  }
-
-  .heroSite {
-    padding-top: 100px;
-  }
-
-  .poster {
-    font-size: 45px;
-  }
-
-  .heroSite .field h3 {
-    font-size: 1.3rem;
-  }
-
-  .img-field img {
-    height: 260px !important;
-  }
-}
 
 @media (max-width: 600px) {
   .icon {
@@ -870,7 +763,9 @@ h2{
   }
 
   .img-field img {
-    height: 150px !important;
+    height: 135.5px !important;
+    width: 500px;
+
   }
 
   .sales {
@@ -879,9 +774,12 @@ h2{
 }
 /* Style de base pour la vidéo */
 #myVideo {
-  width: 100%; /* Par défaut, la vidéo occupe toute la largeur du conteneur */
-  height: auto; /* La hauteur est automatiquement ajustée pour conserver le rapport hauteur/largeur */
+  display: block;
+  width: 30%;
+  margin: auto;
 }
+
+
 
 /* Media Query pour les écrans de taille moyenne à grande */
 @media screen and (min-width: 768px) {
@@ -922,6 +820,7 @@ h2{
     width :100%;
     height :250px;
   }
+  
 }
 
 /* ----------------START----------------------------------  */
